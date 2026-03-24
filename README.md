@@ -20,3 +20,34 @@ To resolve this, I added an inbound rule to allow HTTP traffic on port 80.
 After adding the HTTP rule on port 80, the EC2 instance was able to receive web traffic from the internet.
 
 ![Updated Security Group](inbound-rules-http.png)
+# AWS EC2 Python Web Server
+
+## Project Overview
+
+In this project, I launched an Amazon EC2 instance, connected to it through the terminal, created a simple HTML webpage, and hosted it using Python’s built-in web server.
+
+## Terminal Setup and Commands
+
+After connecting to my EC2 instance through the browser-based terminal, I began setting up my project environment. I first ran the command `mkdir website`, which created a new directory named `website` to keep my files organized. I then used `cd website` to navigate into that directory so that any files I created would be stored in the correct location.
+
+Next, I ran `nano index.html`, which opened the Nano text editor and allowed me to create and edit a file named `index.html`. This file is important because it serves as the main webpage that the server will display.
+
+The screenshot below shows the sequence of commands I executed in the terminal.
+
+![Terminal Commands](comman-list-terminal.png)
+
+## Creating the HTML File
+
+Inside the Nano editor, I created a simple HTML page to confirm that my server would be able to display content in a browser. I pasted the following code:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EC2 Web Server</title>
+</head>
+<body>
+    <h1>Welcome to my EC2 server</h1>
+    <p>This website is hosted on an AWS EC2 instance using Python.</p>
+</body>
+</html>
