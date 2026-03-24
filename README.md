@@ -15,3 +15,8 @@ Initially, the security group only allowed SSH (port 22) access, which is used t
 I noticed that HTTP (port 80) was not enabled, which would prevent external users from accessing the web server through a browser.
 
 To resolve this, I added an inbound rule to allow HTTP traffic on port 80.
+## Updated Security Configuration
+
+After adding the HTTP rule on port 80, the EC2 instance was able to receive web traffic from the internet.
+
+![Updated Security Group](inbound-rule-updated.png)
