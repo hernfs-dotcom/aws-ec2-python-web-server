@@ -33,3 +33,12 @@ Next, I ran `nano index.html`, which opened the Nano text editor and allowed me 
 The screenshot below shows the sequence of commands I executed in the terminal.
 
 ![Terminal Commands](command-list-terminal.png)
+## Creating the HTML File
+
+```bash
+nano index.html
+```
+
+I created this file to serve as the main webpage content. The `index.html` file is the default file a web server loads, allowing the EC2 instance to display the website in the browser.
+
+![Nano HTML](nano.index.html.png)
