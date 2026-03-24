@@ -42,3 +42,14 @@ nano index.html
 I created this file to serve as the main webpage content. The `index.html` file is the default file a web server loads, allowing the EC2 instance to display the website in the browser.
 
 ![Nano HTML](nano-index-html.png)
+## Running the Web Server
+
+```bash
+sudo python3 -m http.server 80
+```
+
+After creating the HTML file, I returned to the terminal and typed this command, as shown in the command terminal screenshot. This started the Python web server and began serving content on port 80.
+
+Once the server was running, I copied the EC2 instance’s Public IPv4 address and opened it in my browser. This took me to the live web server, where my webpage was successfully displayed.
+
+![Live Website](welcome-to-my-server.png)
