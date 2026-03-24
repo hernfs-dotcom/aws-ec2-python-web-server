@@ -21,6 +21,7 @@ After adding the HTTP rule on port 80, the EC2 instance was able to receive web 
 
 ![Updated Security Group](inbound-rules-http.png)
 # AWS EC2 Python Web Server
+# AWS EC2 Python Web Server
 
 ## Project Overview
 
@@ -34,7 +35,7 @@ Next, I ran `nano index.html`, which opened the Nano text editor and allowed me 
 
 The screenshot below shows the sequence of commands I executed in the terminal.
 
-![Terminal Commands](comman-list-terminal.png)
+![Terminal Commands](command-list-terminal.png)
 
 ## Creating the HTML File
 
