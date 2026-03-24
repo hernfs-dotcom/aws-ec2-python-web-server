@@ -33,22 +33,6 @@ Next, I ran `nano index.html`, which opened the Nano text editor and allowed me 
 The screenshot below shows the sequence of commands I executed in the terminal.
 
 ![Terminal Commands](command-list-terminal.png)
-After navigating into the project directory, I created the main webpage by running the command nano index.html in the terminal. This opened the Nano text editor, where I was able to write and save the HTML code for the website.
 
-I created this file because index.html is the default file that a web server looks for when serving a webpage. This means when the server runs, it will automatically display the contents of this file in the browser.
-
-The screenshot below shows the HTML file being created and edited inside the Nano editor.
-
-Running the Web Server
-
-After creating and saving the HTML file, I returned to the terminal and ran the command sudo python3 -m http.server 80. This started a Python-based web server on port 80, which is the standard port used for HTTP traffic.
-
-Using sudo allowed the server to bind to port 80, enabling the EC2 instance to serve the webpage to external users over the internet.
-
-Live Website Result
-
-Once the server was running, I accessed the EC2 instance using its Public IPv4 address in a browser. This successfully displayed my webpage, confirming that the server was live and functioning correctly.
-
-The screenshot below shows the live web server running.
 ## Creating the HTML File
 
