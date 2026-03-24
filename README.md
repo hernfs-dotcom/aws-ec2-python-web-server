@@ -39,33 +39,3 @@ The screenshot below shows the sequence of commands I executed in the terminal.
 
 ## Creating the HTML File
 
-Inside the Nano editor, I created a simple HTML page to confirm that my server would be able to display content in a browser. I pasted the following code:
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>EC2 Web Server</title>
-</head>
-<body>
-    <h1>Welcome to my EC2 server</h1>
-    <p>This website is hosted on an AWS EC2 instance using Python.</p>
-This is the code I created inside the terminal using Nano.
-
-The screenshot below shows this code in the terminal.
-
-![Nano HTML](nano-index-html.png)
-
-## Running the Web Server
-
-After creating the HTML file, I went back to the terminal and ran the command `sudo python3 -m http.server 80`, which started a Python web server on port 80 and allowed the EC2 instance to serve the webpage.
-
-## Live Website Result
-
-After running the server, I accessed the EC2 instance using its Public IPv4 address in a browser. This opened my live web server and displayed the webpage.
-
-The screenshot below shows the live web server running successfully.
-
-![Live Website](welcome-to-my-server.png)
-</body>
-</html>
