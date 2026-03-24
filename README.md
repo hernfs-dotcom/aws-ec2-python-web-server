@@ -41,4 +41,4 @@ nano index.html
 
 I created this file to serve as the main webpage content. The `index.html` file is the default file a web server loads, allowing the EC2 instance to display the website in the browser.
 
-![Nano HTML](nano.index.html.png)
+![Nano HTML](nano-index-html.png)
