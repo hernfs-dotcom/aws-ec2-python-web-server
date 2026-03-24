@@ -20,8 +20,7 @@ To resolve this, I added an inbound rule to allow HTTP traffic on port 80.
 After adding the HTTP rule on port 80, the EC2 instance was able to receive web traffic from the internet.
 
 ![Updated Security Group](inbound-rules-http.png)
-# AWS EC2 Python Web Server
-# AWS EC2 Python Web Server
+
 
 ## Project Overview
 
