@@ -33,6 +33,5 @@ Next, I ran `nano index.html`, which opened the Nano text editor and allowed me 
 The screenshot below shows the sequence of commands I executed in the terminal.
 
 ![Terminal Commands](command-list-terminal.png)
-
 ## Creating the HTML File
 
